@@ -1,0 +1,66 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "爱你每一天"
+			}
+		}
+	    ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText": "爱你每一天"
+			}
+        }
+        ,{
+            "path" : "pages/record/record",
+            "style" : {
+				"navigationBarTitleText": "爱你每一天"
+			}
+        }
+        ,{
+            "path" : "pages/interactive/interactive",
+            "style" : {
+				"navigationBarTitleText": "爱你每一天"
+			}
+        }
+      
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	 "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "height": "50px",
+        "fontSize": "10px",
+        "iconWidth": "24px",
+        "spacing": "3px",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "static/logo.png",
+            "selectedIconPath": "static/logo.png",
+            "text": "心跳"
+        },{
+            "pagePath": "pages/interactive/interactive",
+            "iconPath": "static/logo.png",
+            "selectedIconPath": "static/logo.png",
+            "text": "互动"
+        },{
+            "pagePath": "pages/record/record",
+            "iconPath": "static/logo.png",
+            "selectedIconPath": "static/logo.png",
+            "text": "记录"
+        }, {
+            "pagePath": "pages/me/me",
+            "iconPath": "static/logo.png",
+            "selectedIconPath": "static/logo.png",
+            "text": "我们"
+        }]
+    }
+}
